@@ -1,0 +1,16 @@
+[tool.poetry]
+name="solution"
+version="0.2.0"
+description="NTO"
+authors=["team"]
+[tool.poetry.dependencies]
+python="^3.10"
+pandas="*"
+numpy="*"
+scikit-learn="*"
+pyarrow="*"
+joblib="*"
+catboost="*"
+[build-system]
+requires=["poetry-core"]
+build-backend="poetry.core.masonry.api"
